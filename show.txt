@@ -1,0 +1,5 @@
+IF(countName >= 1) THEN RETURN 'Y';
+	ELSEIF(countName=0) THEN RETURN 'N';
+	ELSE RETURN 'ER';
+	END IF;
+
